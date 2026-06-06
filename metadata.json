@@ -1,0 +1,6 @@
+{
+  "name": "Sviluppo Neonato - Primo Anno",
+  "description": "App per monitorare le tappe dello sviluppo, visite mediche, progressi di crescita fisica e consigli personalizzati AI durante il primo anno del neonato.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

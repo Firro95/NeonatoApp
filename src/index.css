@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,650;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "Space Mono", monospace;
+
+  /* Theme Palette Definitions */
+  --bg-brand: #F9F7F2;
+  --color-brand-dark: #2C2C2C;
+  --color-brand-green: #4A5D4E;
+  --color-brand-green-hover: #3C4D3F;
+  --color-brand-beige: #E8E4D9;
+  --color-brand-sand: #F2F0E9;
+  --color-brand-clay: #D79A81;
+  --color-brand-clay-dark: #C1856C;
+  --color-brand-sage-light: #A8B5A2;
+  --color-brand-border: #D1CEC4;
+  --color-brand-muted: #8A867A;
+}
+
+body {
+  background-color: #F9F7F2;
+  color: #2C2C2C;
+  font-family: var(--font-sans);
+}
+
+/* Custom crisp scrollbar to match the geometric style */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F2F0E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #D1CEC4;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4A5D4E;
+}
+
+/* Clear focus outlines styled geometrically */
+*:focus-visible {
+  outline: 2px solid #4A5D4E;
+  outline-offset: 2px;
+}
